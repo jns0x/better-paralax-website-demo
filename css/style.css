@@ -1,3 +1,22 @@
+border {
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  color: #ccc;
+  weight: 300; }
+
+figure {
+  margin: auto; }
+
+.content article {
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center; }
+
+img {
+  max-width: 100%; }
+
 .bird-box {
   position: relative;
   height: 600px;
@@ -37,3 +56,25 @@
   position: absolute;
   left: 50%;
   margin-left: -480px; }
+
+.clothes-pics figure {
+  margin-bottom: 20px;
+  position: relative;
+  display: inline;
+  opacity: 0;
+  transition: all 0.3s ease-in-out; }
+  .clothes-pics figure img {
+    width: 30%; }
+  .clothes-pics figure.is-showing {
+    opacity: 1;
+    transform: translateX(0px); }
+
+.large-window {
+  height: 640px;
+  background-image: url(/images/model1.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  margin-top: 100px;
+  border-radius: 50%; }

@@ -1,4 +1,27 @@
+//Base styles
+	
+border
+	font-family:  "Open Sans", sans-serif
+
+h1
+	color: #ccc
+	weight: 300
+
+figure
+	margin: auto
+
+.content
+	article
+		padding: 100px 0
+		max-width: 640px
+		margin: 0 auto
+		text-align: center
+
+img
+	max-width: 100%
+
 // Paralax
+
 .bird-box
 	position: relative
 	height: 600px
@@ -42,3 +65,31 @@
 	position: absolute
 	left: 50%
 	margin-left: -480px
+
+// Model Grid
+
+.clothes-pics
+	figure
+		margin-bottom:  20px
+		position: relative
+		display: inline
+		opacity: 0
+		transition: all 0.3s ease-in-out
+		img
+			width: 30%
+		&.is-showing
+			opacity: 1
+			transform: translateX(0px)
+
+
+// large-window
+.large-window
+	height: 640px
+	background: 
+		image: url(/images/model1.jpg)
+		position: top center
+		repeat: no-repeat
+		attachment: fixed
+		size: 70%
+	margin-top: 100px
+	border-radius: 50%

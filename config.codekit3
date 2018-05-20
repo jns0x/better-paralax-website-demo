@@ -75,6 +75,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/model1.jpg": {
+		"ft": 16384,
+		"iS": 76071,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/model1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/model2.jpg": {
+		"ft": 16384,
+		"iS": 75575,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/model2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/model3.jpg": {
+		"ft": 16384,
+		"iS": 97083,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/model3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -538,7 +571,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 6,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8209,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
